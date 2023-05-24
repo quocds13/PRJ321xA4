@@ -41,4 +41,7 @@ public class AccountDAOimpl implements AccountDAO{
 		cstmt.execute();
 		return cstmt.getInt("count") > 0;
 	}
+	public void logout(){
+		
+	}
 }
